@@ -352,3 +352,110 @@ body{
     line-height:1.5;
 
 }
+
+/* ==========================
+   CURRENTLY WORKING ON
+========================== */
+
+.container{
+
+    max-width:1200px;
+
+    margin:0 auto;
+
+    padding:0 20px;
+
+}
+
+#working-on{
+
+    padding:100px 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+}
+
+.working-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+}
+
+.work-card{
+
+    background:var(--surface-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:0.3s ease;
+
+}
+
+.work-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary-color);
+
+    box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+}
+
+.work-card h3{
+
+    font-size:26px;
+
+    margin-bottom:18px;
+
+}
+
+.work-card p{
+
+    color:var(--text-secondary);
+
+    line-height:1.8;
+
+}
+/* ==========================
+   REUSABLE CARD
+========================== */
+
+.card{
+
+    background:var(--surface-color);
+
+    border:1px solid var(--border-color);
+
+    border-radius:18px;
+
+    padding:28px;
+
+    transition:all .3s ease;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary-color);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+
+}
