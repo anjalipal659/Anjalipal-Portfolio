@@ -1206,3 +1206,48 @@ body{
     transform:translateY(-3px);
 
 }
+
+/* ==========================
+   FOOTER
+========================== */
+
+#footer{
+    background:var(--surface-color);
+    border-top:1px solid var(--border-color);
+    padding:60px 0 30px;
+    text-align:center;
+}
+
+#footer h2{
+    margin-bottom:10px;
+}
+
+#footer p{
+    color:var(--text-secondary);
+}
+
+.footer-links,
+.footer-social{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+    margin:25px 0;
+}
+
+.footer-links a,
+.footer-social a{
+    text-decoration:none;
+    color:var(--text-primary);
+    transition:.3s;
+}
+
+.footer-links a:hover,
+.footer-social a:hover{
+    color:var(--primary-color);
+}
+
+.copyright{
+    margin-top:25px;
+    font-size:14px;
+}
